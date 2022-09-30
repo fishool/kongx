@@ -6,6 +6,9 @@ spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:13306/kongx_serve?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true
+    username: root
+    password: 851158220
 server:
   port: 8095
   servlet:
